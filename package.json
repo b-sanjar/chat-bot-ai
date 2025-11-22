@@ -1,0 +1,22 @@
+{
+  "name": "intelekt_chatbot",
+  "version": "1.0.0",
+  "description": "Telegram chatbot with free local LLM (Ollama) integration",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@openrouter/sdk": "^0.1.23",
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "groq-sdk": "^0.36.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "openai": "^6.9.1"
+  }
+}
